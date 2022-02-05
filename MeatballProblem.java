@@ -82,7 +82,7 @@ class MeatballProblem{
         int temp = meatSizes[0];
         int personNumber = 0;
         for(int i=1;i<arrSize;i++){
-            if(temp<meatSizes[i]){
+            if(temp<=meatSizes[i]){
                 temp = meatSizes[i];
                 personNumber = i;
             }
