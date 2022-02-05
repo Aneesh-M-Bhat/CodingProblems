@@ -88,5 +88,6 @@ class MeatballProblem{
             }
         }
         System.out.println(personNumber+1);
+        s.close();
     }
 }
